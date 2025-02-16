@@ -1,5 +1,5 @@
 from factorial_code import factorial_recursive
 
 if __name__ == "__main__":
-    number = int(input("Enter a number: "))
+    number = input("Enter a number: ")
     print(f"The factorial of {number} is {factorial_recursive(number)}")
